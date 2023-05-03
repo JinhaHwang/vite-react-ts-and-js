@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 import path from 'path'
 
@@ -16,5 +16,8 @@ export default defineConfig({
         replacement: path.resolve(__dirname, 'src/components'),
       },
     ],
+  },
+  test: {
+    environment: 'happy-dom', // or 'jsdom', 'node'
   },
 })
