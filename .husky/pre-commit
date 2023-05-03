@@ -2,3 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npm run lint
+
+# Commit will be aborted, 아래 주석을 풀면 커밋이 안 됨. 이 훅을 테스트 할 때만 잠깐 활성화 하여 사용
+# exit 1
