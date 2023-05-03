@@ -1,5 +1,5 @@
 import { ReactElement } from 'react'
-import JsComponent from '@/components/JSComponent.jsx'
+import JsComponent from '@/components/JSComponent'
 
 export const Text = ({ children }: { children: ReactElement }) => {
   return (
