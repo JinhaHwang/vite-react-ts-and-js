@@ -15,16 +15,15 @@
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
 
     /* custom */
     "allowJs": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@/vuexy/*": ["src/libs/vuexy/components/*"],
+      "@/vuexy/*": ["src/libs/vuexy/components/*"]
     }
   },
   "include": ["src"],
