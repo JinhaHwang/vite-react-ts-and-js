@@ -1,10 +1,3 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -37,6 +30,8 @@
   padding: 2em;
 }
 
-.read-the-docs {
+// .read-docs 와 같은 dash 형태의 네이밍은 외부로 노출되지 않는다. 때문에 module.scss 내에서 className을 camelCase 로 작성한다.
+.readDocs {
   color: #888;
 }
+
