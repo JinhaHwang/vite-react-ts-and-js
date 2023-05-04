@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 import path from 'path'
+import postcssRtl from 'postcss-rtl'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -19,6 +20,9 @@ export default defineConfig({
       scss: {
         additionalData: `@import "src/assets/styles/variables.scss";`,
       },
+    },
+    postcss: {
+      plugins: [postcssRtl()],
     },
   },
   resolve: {

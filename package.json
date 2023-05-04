@@ -92,6 +92,8 @@
     "husky": "^8.0.0",
     "is-ci": "^3.0.1",
     "lint-staged": "^13.2.2",
+    "postcss": "^8.4.23",
+    "postcss-rtl": "^2.0.0",
     "prettier": "2.8.8",
     "prop-types": "^15.8.1",
     "sass": "^1.62.1",
