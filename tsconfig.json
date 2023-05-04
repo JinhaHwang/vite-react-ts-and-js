@@ -23,8 +23,8 @@
     "allowJs": true,
     "baseUrl": ".",
     "paths": {
-      "@/vuexy/*": ["src/libs/vuexy/*"],
-      "@/components/*": ["src/components/*"]
+      "@/*": ["src/*"],
+      "@/vuexy/*": ["src/libs/vuexy/components/*"],
     }
   },
   "include": ["src"],

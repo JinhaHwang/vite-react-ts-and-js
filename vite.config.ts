@@ -8,12 +8,12 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: '@/vuexy',
-        replacement: path.resolve(__dirname, 'src/libs/vuexy'),
+        find: '@',
+        replacement: path.resolve(__dirname, 'src'),
       },
       {
-        find: '@/components',
-        replacement: path.resolve(__dirname, 'src/components'),
+        find: '@/vuexy',
+        replacement: path.resolve(__dirname, 'src/libs/vuexy/components'),
       },
     ],
   },
